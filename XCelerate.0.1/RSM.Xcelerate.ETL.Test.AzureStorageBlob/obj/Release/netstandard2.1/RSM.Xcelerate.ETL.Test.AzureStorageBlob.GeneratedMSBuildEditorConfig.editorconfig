@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = RSM.Xcelerate.ETL.Test.AzureStorageBlob
+build_property.ProjectDir = C:\Users\sys-user\source\repos\Xcelerate-API_UI-Automation-MAQS\Xcelerate-Automation\XCelerate.0.1\RSM.Xcelerate.ETL.Test.AzureStorageBlob\

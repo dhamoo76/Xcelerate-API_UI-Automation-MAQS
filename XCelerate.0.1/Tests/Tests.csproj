@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="AutomationCore" Version="1.0.12" />
+		<PackageReference Include="FluentAssertions" Version="6.4.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="6.0.1" />
+		<PackageReference Include="NUnit3TestAdapter" Version="4.1.0" />
+		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.0.0" />
+		<PackageReference Include="MSTest.TestAdapter" Version="2.2.7" />
+		<PackageReference Include="Idm.Core.Authentication" Version="1.0.23" />
+		<PackageReference Include="RSM.Core.Configuration" Version="1.3.0" />
+		<PackageReference Include="RSM.Xcelerate.CDS.Service.Client" Version="1.0.1-CI-131958" />
+		<PackageReference Include="RSM.Xcelerate.CEM.Service.Client" Version="1.0.1-CI-126474" />
+		<PackageReference Include="RSM.Xcelerate.ETL.Service.Client" Version="1.0.1-CI-122369" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Remove="App.config" />
+	</ItemGroup>
+	<ItemGroup>
+		<EmbeddedResource Include="App.config">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</EmbeddedResource>
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\Models\Models.csproj" />
+		<ProjectReference Include="..\RSM.Xcelerate.ETL.Test.AzureStorageBlob\RSM.Xcelerate.ETL.Test.AzureStorageBlob.csproj" />
+		<ProjectReference Include="..\RSM.Xcelerate.Test.Shared\RSM.Xcelerate.Test.Shared.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Update="appsettings.local.json">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appsettings.CDS.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appsettings.CEM.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appsettings.ETL.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appsettings.Development.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appsettings.local.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appsettings.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appsettings.Qa.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appsettings.Sit.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appsettings.Preuat.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appsettings.Perf.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="legalentitiestest.xlsx">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="API\CEM\Projects\" />
+	  <Folder Include="Shared\" />
+	</ItemGroup>
+	<!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

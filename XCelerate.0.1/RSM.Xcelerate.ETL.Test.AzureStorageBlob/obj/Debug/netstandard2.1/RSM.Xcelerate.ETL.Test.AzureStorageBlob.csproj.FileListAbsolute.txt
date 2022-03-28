@@ -1,0 +1,10 @@
+C:\Users\E091531\source\repos\Updated\latest\Xcelerate-Automation\XCelerate.0.1\RSM.Xcelerate.ETL.Test.AzureStorageBlob\bin\Debug\netstandard2.1\RSM.Xcelerate.ETL.Test.AzureStorageBlob.deps.json
+C:\Users\E091531\source\repos\Updated\latest\Xcelerate-Automation\XCelerate.0.1\RSM.Xcelerate.ETL.Test.AzureStorageBlob\bin\Debug\netstandard2.1\RSM.Xcelerate.ETL.Test.AzureStorageBlob.dll
+C:\Users\E091531\source\repos\Updated\latest\Xcelerate-Automation\XCelerate.0.1\RSM.Xcelerate.ETL.Test.AzureStorageBlob\bin\Debug\netstandard2.1\RSM.Xcelerate.ETL.Test.AzureStorageBlob.pdb
+C:\Users\E091531\source\repos\Updated\latest\Xcelerate-Automation\XCelerate.0.1\RSM.Xcelerate.ETL.Test.AzureStorageBlob\obj\Debug\netstandard2.1\RSM.Xcelerate.ETL.Test.AzureStorageBlob.csproj.AssemblyReference.cache
+C:\Users\E091531\source\repos\Updated\latest\Xcelerate-Automation\XCelerate.0.1\RSM.Xcelerate.ETL.Test.AzureStorageBlob\obj\Debug\netstandard2.1\RSM.Xcelerate.ETL.Test.AzureStorageBlob.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\E091531\source\repos\Updated\latest\Xcelerate-Automation\XCelerate.0.1\RSM.Xcelerate.ETL.Test.AzureStorageBlob\obj\Debug\netstandard2.1\RSM.Xcelerate.ETL.Test.AzureStorageBlob.AssemblyInfoInputs.cache
+C:\Users\E091531\source\repos\Updated\latest\Xcelerate-Automation\XCelerate.0.1\RSM.Xcelerate.ETL.Test.AzureStorageBlob\obj\Debug\netstandard2.1\RSM.Xcelerate.ETL.Test.AzureStorageBlob.AssemblyInfo.cs
+C:\Users\E091531\source\repos\Updated\latest\Xcelerate-Automation\XCelerate.0.1\RSM.Xcelerate.ETL.Test.AzureStorageBlob\obj\Debug\netstandard2.1\RSM.Xcelerate.ETL.Test.AzureStorageBlob.csproj.CoreCompileInputs.cache
+C:\Users\E091531\source\repos\Updated\latest\Xcelerate-Automation\XCelerate.0.1\RSM.Xcelerate.ETL.Test.AzureStorageBlob\obj\Debug\netstandard2.1\RSM.Xcelerate.ETL.Test.AzureStorageBlob.dll
+C:\Users\E091531\source\repos\Updated\latest\Xcelerate-Automation\XCelerate.0.1\RSM.Xcelerate.ETL.Test.AzureStorageBlob\obj\Debug\netstandard2.1\RSM.Xcelerate.ETL.Test.AzureStorageBlob.pdb

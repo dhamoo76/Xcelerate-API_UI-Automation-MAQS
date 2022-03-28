@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!--<TargetFramework>netstandard2.1</TargetFramework>-->
+	<!-- Moved from .NET standard due to dependency on Models DLL. Since this assembly only uses a small subset of the .NET BCL,
+	     the TargetFramework could be downgraded with some refactoring, if needed. -->
+    <TargetFramework>.net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Magenic.Maqs" Version="7.0.6" />
+	<!-- Only hosted on RSM internal NuGet server. -->
+    <PackageReference Include="RSM.Xcelerate.ETL.Service.Client" Version="1.0.1-CI-122369" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Models\Models.csproj" />
+  </ItemGroup>
+</Project>
+
